@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9acf7a-91a5-4c28-82f8-732d8c212e41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LcjDemoLearn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdemo/mybatisdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdemo/src/main/resources/mapper/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdemo/src/main/resources/mapper/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisdemo/src/main/resources/mapper/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatisdemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +35,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatisdemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
+            <state relative-caret-position="840">
               <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
@@ -78,6 +76,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="qa" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566877687556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566888228580" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -196,12 +199,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566876702543</updated>
-      <workItem from="1566876703727" duration="924000" />
+      <workItem from="1566876703727" duration="1172000" />
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1566877746202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566877746202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="924000" />
+    <option name="totallyTimeSpent" value="1172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -240,6 +251,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -247,7 +262,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatisdemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
+        <state relative-caret-position="840">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
