@@ -422,7 +422,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567078187249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567078964431" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -450,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDAOTest.delete">
+  <component name="RunManager" selected="JUnit.StudentDAOTest.findStudentById1">
     <configuration name="StudentDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisdemo" />
       <extension name="coverage">
@@ -467,7 +467,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDAOTest.findAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDAOTest.findStudentById1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisdemo" />
       <extension name="coverage">
         <pattern>
@@ -477,7 +477,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lcj.mybatis.dao" />
       <option name="MAIN_CLASS_NAME" value="com.lcj.mybatis.dao.StudentDAOTest" />
-      <option name="METHOD_NAME" value="findAllStudent" />
+      <option name="METHOD_NAME" value="findStudentById1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -533,11 +533,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDAOTest.findStudentById1" />
         <item itemvalue="JUnit.StudentDAOTest.delete" />
         <item itemvalue="JUnit.StudentDAOTest.update" />
         <item itemvalue="JUnit.StudentDAOTest.insert1" />
         <item itemvalue="JUnit.StudentDAOTest.insert" />
-        <item itemvalue="JUnit.StudentDAOTest.findAllStudent" />
       </list>
     </recent_temporary>
   </component>
