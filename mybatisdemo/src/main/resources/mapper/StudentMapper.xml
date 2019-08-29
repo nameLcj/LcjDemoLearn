@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper:根标签，namespace：命名空间，随便写，一般保证命名空间唯一 -->
+<mapper namespace="com.lcj.mybatis.dao.StudentDAO">
+
+    <resultMap id="studentMap" type="com.lcj.mybatis.entily.Student">
+        <id property="id" column="id"></id>
+        <result property="name" column="name"></result>
+        <result property="age" column="age"></result>
+    </resultMap>
+    <select id="findNameById" resultType="java.lang.String">
+        select name
+        from student
+        where id= #{id}
+    </select>
+
+    <select id="findNameByIdAndAge" resultType="java.lang.String">
+        select name
+        from student
+        where id= #{id}  AND  age=#{age}
+    </select>
+
+    <select id="findStudentById" resultType="com.lcj.mybatis.entily.Student">
+        select *
+        from student
+        where id= #{id}
+    </select>
+
+    <select id="findStudentById1" resultMap="studentMap">
+        select *
+        from student
+        where id= #{id}
+    </select>
+
+    <select id="findAllStudent" resultMap="studentMap">
+        select *
+        from student
+    </select>
+
+    <insert id="insertStudent">
+        INSERT INTO student(id, name,sex, age ,address)
+        VALUES (
+         #{id},
+         #{name},
+         #{sex},
+         #{age},
+         #{address}
+        )
+    </insert>
+
+    <insert id="insertStudent1" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO student(id,name, age)
+        VALUES (
+        #{id},
+        #{name},
+        #{age}
+        )
+    </insert>
+
+    <update id="updateStudentById">
+        UPDATE student
+        SET name = #{name}
+        WHERE id = #{id}
+    </update>
+
+    <update id="deleteStudentById">
+        DELETE FROM student
+        WHERE id = #{id}
+    </update>
+
+</mapper>
+
+
