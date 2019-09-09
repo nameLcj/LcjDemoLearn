@@ -2,7 +2,6 @@ package demo;
 
 /***
  * 随机生成100随机数并按照升级排序展示
- *
  */
 public class RandowDemo {
     public static void main(String[] args) {
@@ -32,7 +31,6 @@ public class RandowDemo {
         show(arr);
         System.out.println("比较次数为:" + count1);
     }
-
     private static void show(int[] arr) {
         for (int d : arr) {
             System.out.print(d + ",");
